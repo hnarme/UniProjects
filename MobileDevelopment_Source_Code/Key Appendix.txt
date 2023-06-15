@@ -1,0 +1,2 @@
+google map api key under string "api_key" at the top of the file
+src/main/res/values/strings.xml

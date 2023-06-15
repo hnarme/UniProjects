@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_overview">
+
+    <fragment
+        android:id="@+id/navigation_overview"
+        android:name="com.example.test.ui.overview.OverviewFragment"
+        android:label="@string/title_overview"
+        tools:layout="@layout/fragment_overview" >
+        <action
+            android:id="@+id/action_navigation_overview_to_savingsCalculatorFragment"
+            app:destination="@id/savingsCalculatorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_mysavings"
+        android:name="com.example.test.ui.mysavings.MySavingsFragment"
+        android:label="@string/title_savings"
+        tools:layout="@layout/fragment_mysavings" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_mapoptions"
+        android:name="com.example.test.ui.map.MapOptionsFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_mapoptions" >
+        <action
+            android:id="@+id/action_navigation_mapoptions_to_gMap"
+            app:destination="@id/gMap" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gMap"
+        android:name="com.example.test.ui.map.gMap"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_gmap" />
+    <fragment
+        android:id="@+id/savingsCalculatorFragment"
+        android:name="com.example.test.ui.overview.SavingsCalculatorFragment"
+        android:label="@string/title_savings_calculator"
+        tools:layout="@layout/fragment_savings_calculator" >
+        <action
+            android:id="@+id/action_savingsCalculatorFragment_to_navigation_overview"
+            app:destination="@id/navigation_overview" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_goals"
+        android:name="com.example.test.ui.goals.GoalFragment"
+        android:label="@string/title_goals"
+        tools:layout="@layout/goal_fragment" >
+    </fragment>
+
+</navigation>

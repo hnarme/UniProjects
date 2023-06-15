@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_overview"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/title_overview" />
+
+    <item
+        android:id="@+id/navigation_mysavings"
+        android:icon="@drawable/ic_baseline_monetization_on_24"
+        android:title="@string/title_savings" />
+
+    <item
+        android:id="@+id/navigation_mapoptions"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/title_map" />
+
+    <item
+        android:id="@+id/navigation_goals"
+        android:icon="@drawable/ic_baseline_outlined_flag_24"
+        android:title="@string/title_goals" />
+
+</menu>

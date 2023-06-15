@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Every Penny Counts</string>
+    <!-- API Keys -->
+    <string name="api_key">AIzaSyDcb0HPyy6h9wUWx56s7m_hc7RC_1n5T2I</string>
+
+    <!-- Titles -->
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_overview">Overview</string>
+    <string name="title_savings">My Savings</string>
+    <string name="title_map">Banks Near Me</string>
+    <string name="title_goals">Goals</string>
+    <string name="title_goals_add">Add Goals</string>
+    <string name="title_setting">Settings</string>
+    <string name="title_setting_appearance">Appearance</string>
+    <string name="title_setting_help">Help</string>
+    <string name="title_setting_backup">Online Backup</string>
+    <string name="title_setting_notifications">Notifications</string>
+    <string name="title_setting_about">About</string>
+    <string name="title_savings_calculator">Savings Calculator</string>
+
+    <!-- Button Titles -->
+    <string name="button_backup">Online Backup</string>
+    <string name="button_notifications">Notifications</string>
+    <string name="button_appearance">Appearance</string>
+    <string name="button_about">About</string>
+    <string name="button_help">Help</string>
+    <string name="button_saveGoal">Save</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Labels -->
+    <string name="label_savegoaltitle">Title:</string>
+    <string name="label_goalamount">Goal Amount:</string>
+    <string name="label_goaldeadline">Goal Deadline:</string>
+
+    <string name="input_amount">Input Amount</string>
+    <string name="input_title">Input Title</string>
+    <string name="fragment_savings_calculator">Savings Calculator</string>
+    <string name="goals_add_fragment">Add Goals</string>
+    <string name="main_goal_progress">Total Saving Amount</string>
+    <string name="don_t_know_how_much_to_save_each_month_try_our_savings_calculator">Don\'t know how much to save each month? Try our savings calculator.</string>
+    <string name="savings_calculator">Savings Calculator</string>
+
+    <!-- Temp text -->
+    <string name="android_image">Android Image</string>
+    <string name="start_tracking_location">start tracking location</string>
+    <string name="textview_hint">Press the button to start tracking your location.</string>
+    <string name="get_location">Get Location</string>
+    <string name="location_permission_denied">Location permissions denied,
+        please enable the permissions to use this app.
+    </string>
+    <string name="address_text">"Address: %1$s \n Timestamp: %2$tr"</string>
+    <string name="no_location">No location available</string>
+    <string name="no_address_found">No address found</string>
+    <string name="loading">Loading…</string>
+    <string name="service_not_available">Service not available</string>
+    <string name="invalid_lat_long_used">Invalid coordinates used</string>
+    <string name="stop_tracking_location">Stop tracking location</string>
+    <string name="places">Places</string>
+    <string name="fragment_map_options">Maps</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_moneysavingtips">Money Saving Tips:</string>
+    <string name="title_saving_values_list">My Goals</string>
+    <string name="add_goal">Add Goal</string>
+    <string name="add_saving">Add Saving</string>
+
+    <string name="emptygoal_not_saved">Goal not saved because it is empty.</string>
+    <string name="no_word">No word</string>
+    <string name="no_saving">No Saving Value</string>
+    <string name="Delete">delete_word_preamble</string>
+    <string name="delete_word_preamble">Deleting</string>
+    <string name="delete_saving_preamble">Deleting</string>
+</resources>
