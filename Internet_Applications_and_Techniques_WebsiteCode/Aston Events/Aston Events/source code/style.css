@@ -1,0 +1,75 @@
+body {
+  background-color: #fff3d4;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #fff3d4;
+  border: 0;
+  font-size: 22px
+  line-height: 1.42857143
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Proxima Nova, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #000000 !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active {
+  color: #000000 !important;
+  background-color: #fc8d32 !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.jumbotron {
+  background-color: #fff3d4;
+  color: #fc8d32;
+  padding: 16px 25px;
+  font-family: Proxima Nova, sans-serif;
+}
+
+.container {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.eventform {
+  display: flex;
+}
+
+.text {
+  font-size: 30px;
+  padding: 10px;
+  font-family: Proxima Nova, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.eventsimg {
+  color: #fc8d32;
+}
+
+.moreevents {
+  color: #fc8d32;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff3d4;
+  color: #fc8d32;
+  padding: 0px 0px;
+  font-family: Proxima Nova, sans-serif;
+  text-align: center;
+}
